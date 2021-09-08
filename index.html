@@ -16,10 +16,9 @@
         <li><a href="#favorites">Some Favorites</a></li>
         <li><a href="#websites">Favorite Websites</a></li>
         <li><a href="#projects">My Projects for the Course</a></li>
-        <li><a href="#misc">Miscellaneous</a></li>
+        <li><a href="#other">Other</a></li>
       </ul>
     </div>
-
 
     <img src="jade_pfp.jpg" height="250">
     <h2>Jade Deo</h2>
@@ -93,8 +92,8 @@
     <div id="favorites">
       <h3>__________________ Some Favorites __________________</h3>
       <ul>
-        <li>Song: right this second, "Red" by Anju</li>
-        <li>Film: "The Prince of Egypt" or "Sinbad: Legend of the Seven Seas"</li>
+        <li>Song: <a href="https://open.spotify.com/track/5uwJok4rYoVFpxBmzKp4Tk?si=bdb41448c0c04fa3" target="_blank">"Darija Freestyle" - Dounia</a></li>
+        <li>Film: "The Prince of Egypt" or "Sinbad: Legend of the Seven Seas"</a></li>
         <li>TV Show: "Avatar: The Last Airbender" haha</li>
       </ul>
     </div>
@@ -116,21 +115,43 @@
 
     <div id="projects">
       <h3>______________ My Projects for the Course _____________</h3>
+      <p>Links don't take the user anywhere yet; they will be updated for future projects.</p>
       <ul>
-        <li>Project 1</li>
-        <li>Project 2</li>
+        <li><a href="#">Project 1</a></li> <!--update later with link to project-->
+        <li><a href="#">Project 2</a></li> <!--update later with link to project-->
       </ul>
     </div>
 
+    <div id="other">
+      <h3>_______________________ Other _______________________</h3>
+      <p>I found this video very helpful when figuring out how to use GitHub with terminal:</p>
+      <iframe width="420" height="270" src="https://www.youtube.com/embed/eL_0Ok_Gkas"></iframe>
 
-    <div id="misc">
-      <h3>________________ Miscellaneous ________________</h3>
-      <p>I found this video very helpful when figuring out how to use GitHub with terminal.</p>
-      <iframe width="420" height="315" src="https://www.youtube.com/embed/eL_0Ok_Gkas"></iframe>
-
-      <p>This is an attempt at practicing adding images sourced on the web:</p>
+      <p>This is practice with adding images sourced from the web:</p>
       <img src="https://cdn.pixabay.com/photo/2017/01/24/03/53/plant-2004483__480.jpg" width="420">
+      <p>(Image is free for use from Pixabay)</p><br>
 
+      <p>This is practice with building a form:</p>
+      <form action="file:///Users/gwc/Desktop/Web%20Application%20Development/CUS1172_Assignment1/index.html">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <input type="radio" id="freshman" name="year" value="Freshman">
+        <label for="freshman">Freshman</label><br>
+        <input type="radio" id="sophomore" name="year" value="Sophomore">
+        <label for="sophomore">Sophomore</label><br>
+        <input type="radio" id="junior" name="year" value="Junior">
+        <label for="junior">Junior</label><br>
+        <input type="radio" id="senior" name="year" value="Senior+">
+        <label for="senior">Senior (+)</label><br><br>
+
+        <label for="major">Major: </label>
+        <input type="text" id="major" name="major"><br><br>
+
+        <p>Submitting only returns user to top of page; input is not being used yet.</p>
+        <input type="submit" value="Submit">
+
+      </form>
     </div>
 
 

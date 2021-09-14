@@ -1,0 +1,116 @@
+*{
+  color: #416b73;
+}
+
+body{
+  margin: 40px;
+  background-color: #cae3e6;
+}
+
+/*NAV STYLING*/
+ul.nav li
+{
+  margin-bottom:20px;
+  display:inline-block;
+  font-weight:bold;
+  text-decoration: none;
+}
+
+ul.nav li a
+{
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14pt;
+  background-color: #416b73;
+  color: #e1f5f7;
+}
+
+ul.nav li a:hover
+{
+  color: #416b73;
+  background-color: #e1f5f7;
+}
+
+ul.nav
+{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #416b73;
+  padding-inline-start: 0px;
+}
+
+/*TABLE STYLING*/
+table{
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th, td{
+  text-align: center;
+}
+
+th{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width:50%;
+  background-color:#b6d1d4;
+  font-style: italic;
+}
+
+tr:nth-child(odd) {
+	background-color: #e1f7fa;
+}
+
+.Box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top:50px;
+}
+
+#menu{
+  max-width: 400px;
+  background-color: #416b73;
+  border:solid 5px white;
+}
+
+#intro{
+  text-align: center;
+}
+
+#degree{
+  font-style: italic;
+}
+
+.section{
+  width: 40%;
+  padding: 15px;
+}
+
+.colored{
+  background-color: #b6d1d4;
+}
+
+hr{
+  border:solid 2px white;
+}
+
+h3{
+  text-align: center;
+}
+
+a:visited {
+  color: #294547;
+}
+
+span{
+  font-style: italic;
+}
+
+li, a, p{
+  font-size: 13pt;
+}

@@ -2,111 +2,142 @@
 
   <head>
     <title>Jade's Website</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+      *{
+        font-family: Courier, monospace;
+      }
+    </style>
   <head>
 
   <body>
+    <div class="Box">
+      <div id="intro">
+        <img src="jade_pfp.jpg" height="250" style="border-radius: 50%; border:solid 5px white;">
+        <h2>Jade Deo</h2>
+        <h3 id="degree">Computer Science Major<br>Fine Art Minor</h3>
+      </div>
 
-    <div id="menu">
-      <h3>_______________________ Menu ______________________</h3>
-      <ul>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#work">Work Experience/Internships</a></li>
-        <li><a href="#programmingSkills">Programming Skills</a></li>
-        <li><a href="#interests">General Interests/Hobbies</a></li>
-        <li><a href="#favorites">Some Favorites</a></li>
-        <li><a href="#websites">Favorite Websites</a></li>
-        <li><a href="#projects">My Projects for the Course</a></li>
-        <li><a href="#other">Other</a></li>
-      </ul>
+      <div id="menu">
+        <ul class="nav">
+          <li><a href="#education">Education</a></li>
+          <li><a href="#work">Work Experience/Internships</a></li>
+          <li><a href="#programmingSkills">Programming Skills</a></li>
+          <li><a href="#interests">General Interests/Hobbies</a></li>
+          <li><a href="#favorites">Some Favorites</a></li>
+          <li><a href="#websites">Favorite Websites</a></li>
+          <li><a href="#projects">My Projects for the Course</a></li>
+          <li><a href="#other">Other</a></li>
+        </ul>
+      </div>
     </div>
 
-    <img src="jade_pfp.jpg" height="250">
-    <h2>Jade Deo</h2>
-    <h3>Computer Science Major & Fine Art Minor</h3>
+    <div class="Box">
+      <div class="section colored" id="education">
+        <h3>Education</h3>
+        <hr>
+        <p>Current senior at <span>St. John's University Queens</span> <br>
+          Honors Program & Dean's List student<br>
+          President of Muse, SJU's student art organization<br>
+          Social Media Manager of SJU ACM Student Chapter
+        </p>
+      </div>
 
-    <div id="education">
-      <h3>____________________ Education ____________________</h3>
-      <p>Current senior at <span style="color:red;">St. John's University Queens</span> <br>
-        Honors Program & Dean's List student<br>
-        President of Muse, SJU's student art organization<br>
-        Social Media Manager of SJU ACM Student Chapter
-      </p>
+      <div class="section" id="work">
+        <h3>Work Experience/Internships</h3>
+        <hr>
+        <ul>
+          <li>Illustrator (current)
+            <ul>
+              <li>Front & back cover illustrations for Akshaya Raman's novel "The Ivory Key" (to be published in Jan. 2022)</li>
+              <li>Art & interview published by The Post Scriptum Project</li>
+              <li>Detailed character print for the literary merchandising shop, Fabled Merch</li>
+              <li><a href="https://jadeddraws.wixsite.com/jadedeo" target="_blank">Portfolio Site (a work in progress)</a></li>
+            </ul>
+          </li>
+          <li>Girls Who Code Summer Immersion Program Teaching Assistant (June - Aug. 2020 & 2021)</li>
+          <li>Lehman Brothers Holdings Inc. Corporate Tax Intern (April - Dec. 2019)</li>
+        </ul>
+      </div>
     </div>
 
-    <div id="work">
-      <h3>____________ Work Experience/Internships ____________</h3>
-      <ul>
-        <li>Illustrator (current)
-          <ul>
-            <li>Front & back cover illustrations for Akshaya Raman's novel "The Ivory Key" (to be published in Jan. 2022)</li>
-            <li>Art & interview published by The Post Scriptum Project</li>
-            <li>Detailed character print for the literary merchandising shop, Fabled Merch</li>
-            <li><a href="https://jadeddraws.wixsite.com/jadedeo" target="_blank">Portfolio Site (a work in progress)</a></li>
-          </ul>
-        </li>
-        <li>Girls Who Code Summer Immersion Program Teaching Assistant (June - Aug. 2020 & 2021)</li>
-        <li>Lehman Brothers Holdings Inc. Corporate Tax Intern (April - Dec. 2019)</li>
-      </ul>
+    <div class="Box">
+      <div class="section" id="programmingSkills">
+        <h3>Programming Skills</h3>
+        <hr>
+        <table>
+          <tr>
+            <th>Skill</th>
+            <th>Experience</th>
+          </tr>
+
+          <tr>
+            <td>Java</td>
+            <td>Intermediate</td>
+          </tr>
+
+          <tr>
+            <td>HTML/CSS</td>
+            <td>Intermediate</td>
+          </tr>
+
+          <tr>
+            <td>JavaScript</td>
+            <td>Beginner</td>
+          </tr>
+
+          <tr>
+            <td>Python</td>
+            <td>Beginner</td>
+          </tr>
+
+          <tr>
+            <td>JavaFX + SceneBuilder</td>
+            <td>Beginner</td>
+          </tr>
+
+          <tr>
+            <td>MySQL</td>
+            <td>Beginner</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="section colored" id="projects">
+        <h3>My Projects for the Course</h3>
+        <hr>
+        <p>Links don't take the user anywhere yet; they will be updated for future projects.</p>
+        <ul>
+          <li><a href="#">Project 1</a></li> <!--update later with link to project-->
+          <li><a href="#">Project 2</a></li> <!--update later with link to project-->
+        </ul>
+      </div>
     </div>
 
-    <div id="programmingSkills">
-      <h3>________________ Programming Skills ________________</h3>
-      <table>
-        <tr>
-          <th>_______Skill_______</th>
-          <th>___Experience___</th>
-        </tr>
+    <div class="Box">
+      <div class="section colored" id="interests">
+        <h3>General Interests/Hobbies</h3>
+        <hr>
+        <p>I've always loved to both draw & read; they've been hobbies all my life.<br>
+        I've been very lucky with being able to monetize the intersection of those interests, through both private & commerical commissions.<br>
+        In the future, I would love to explore a creative career - possibly in fields such as game design, vfx, animation, etc.</p>
+      </div>
 
-        <tr>
-          <td>Java</td>
-          <td>Intermediate</td>
-        </tr>
-
-        <tr>
-          <td>HTML/CSS</td>
-          <td>Intermediate</td>
-        </tr>
-
-        <tr>
-          <td>JavaScript</td>
-          <td>Beginner</td>
-        </tr>
-
-        <tr>
-          <td>Python</td>
-          <td>Beginner</td>
-        </tr>
-
-        <tr>
-          <td>JavaFX + SceneBuilder</td>
-          <td>Beginner</td>
-        </tr>
-
-        <tr>
-          <td>MySQL</td>
-          <td>Beginner</td>
-        </tr>
-      </table>
-    </div>
-
-    <div id="interests">
-      <h3>______________ General Interests/Hobbies _____________</h3>
-      <p>I've always loved to both draw & read; they've been hobbies all my life.<br>
-      I've been very lucky with being able to monetize the intersection of those interests, through both private & commerical commissions.<br>
-      In the future, I would love to explore a creative career - possibly in fields such as game design, vfx, animation, etc.</p>
-    </div>
-
-    <div id="favorites">
-      <h3>__________________ Some Favorites __________________</h3>
-      <ul>
-        <li>Song: <a href="https://open.spotify.com/track/5uwJok4rYoVFpxBmzKp4Tk?si=bdb41448c0c04fa3" target="_blank">"Darija Freestyle" - Dounia</a></li>
-        <li>Film: "The Prince of Egypt" or "Sinbad: Legend of the Seven Seas"</a></li>
-        <li>TV Show: "Avatar: The Last Airbender" (sorry, I have a soft spot for animated works)</li>
-      </ul>
+      <div class="section" id="favorites">
+        <h3>Some Favorites</h3>
+        <hr>
+        <ul>
+          <li>Song: <a href="https://open.spotify.com/track/5uwJok4rYoVFpxBmzKp4Tk?si=bdb41448c0c04fa3" target="_blank">"Darija Freestyle" - Dounia</a></li>
+          <li>Film: "The Prince of Egypt" or "Sinbad: Legend of the Seven Seas"</a></li>
+          <li>TV Show: "Avatar: The Last Airbender" (sorry, I have a soft spot for animated works)</li>
+        </ul>
+      </div>
     </div>
 
     <div id="websites">
-      <h3>_________________ Favorite Websites _________________</h3>
+      <h3>Favorite Websites</h3>
+      <hr>
       <p>For the past 2 summers, I have worked as a TA in GWC's summer program for highschool girls/non-binary students.<br>
       I was required to provide instruction in the basics of HTML, CS & JS.<br>
       Since I don't really have any favorite websites, I've chosen to link the work of some of my past students.<br>
@@ -122,17 +153,9 @@
       </ul>
     </div>
 
-    <div id="projects">
-      <h3>______________ My Projects for the Course _____________</h3>
-      <p>Links don't take the user anywhere yet; they will be updated for future projects.</p>
-      <ul>
-        <li><a href="#">Project 1</a></li> <!--update later with link to project-->
-        <li><a href="#">Project 2</a></li> <!--update later with link to project-->
-      </ul>
-    </div>
-
-    <div id="other">
-      <h3>_______________________ Other _______________________</h3>
+    <div class="colored" id="other">
+      <h3>Other</h3>
+      <hr>
       <p>I found this video very helpful when figuring out how to use GitHub with terminal:</p>
       <iframe width="420" height="270" src="https://www.youtube.com/embed/eL_0Ok_Gkas"></iframe>
 
